@@ -1,0 +1,10 @@
+debug/main.o
+debug/mainwindow.o
+debug/moneda.o
+debug/muro.o
+debug/pacman.o
+debug/qrc_images.o
+debug/qrc_sounds.o
+debug/moc_mainwindow.o
+debug/moc_moneda.o
+debug/moc_pacman.o

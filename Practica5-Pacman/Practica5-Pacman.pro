@@ -10,15 +10,37 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    moneda.cpp \
+    muro.cpp \
+    pacman.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    moneda.h \
+    muro.h \
+    pacman.h
 
 FORMS += \
-    mainwindow.ui
+    mainwindow.ui \
+    mainwindow_copy.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES += \
+    ../images/image20.png \
+    ../images/map.png \
+    ../images/moneda.png \
+    ../images/pac.png \
+    images/image20.png \
+    images/map.png \
+    images/moneda.png \
+    images/pac.png
+
+RESOURCES += \
+    images.qrc \
+    images.qrc \
+    sounds.qrc

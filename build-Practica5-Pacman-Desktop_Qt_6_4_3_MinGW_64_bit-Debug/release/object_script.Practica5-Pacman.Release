@@ -1,0 +1,10 @@
+release/main.o
+release/mainwindow.o
+release/moneda.o
+release/muro.o
+release/pacman.o
+release/qrc_images.o
+release/qrc_sounds.o
+release/moc_mainwindow.o
+release/moc_moneda.o
+release/moc_pacman.o
