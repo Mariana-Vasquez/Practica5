@@ -1,14 +1,14 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QMediaPlayer>
+//#include <QMediaPlayer>
 #include <iostream>
 #include <fstream>
 #include <QMainWindow>
 #include <QPainter>
 #include <QGraphicsItem>
 #include <QKeyEvent>
-#include <QDesktopWidget>
+//#include <QDesktopWidget>
 #include<QGraphicsScene>
 #include<QGraphicsView>
 #include<QWidget>
@@ -28,6 +28,7 @@ QT_END_NAMESPACE
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
+   // QT += multimedia;
 
 public:
     MainWindow(QWidget *parent = nullptr);
